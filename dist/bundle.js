@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"debug\")\n\n//# sourceURL=webpack:///(webpack)/src/index.js?");
+eval("console.log(\"debug\")\r\nlet myExports={};\r\nObject.defineProperty(myExports, Symbol.toStringTag, { value: '1111' });\r\nconsole.log(Object.prototype.toString.call(myExports));\r\n\n\n//# sourceURL=webpack:///(webpack)/src/index.js?");
 
 /***/ })
 
